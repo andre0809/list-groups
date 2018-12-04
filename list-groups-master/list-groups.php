@@ -2,7 +2,7 @@
 /*
 Plugin Name: Groups List Users Show
 Plugin URI: #
-Description: List users of a group.
+Description: List users of a group plugins by itthinx.
 Author: Hendra Trisnayadi
 Version: 1.0.0
 Author URI: #
