@@ -25,7 +25,7 @@ function group_list( $atts, $content = null ) {
         foreach ($users as $group_user) {
           $user = $group_user->user;
           $user_info = get_userdata($user->ID);
-          $output .='<li> '. $user_info-> user_lastname .  ", " . $user_info-> user_firstname . "</li>";
+          $output .='<li> <b>Name :</b> '. $user_info-> user_lastname .  ", " . $user_info-> user_firstname ." <b>Email:</b> " .$user_info-> user_email."</li>";
             }
       }
     }
